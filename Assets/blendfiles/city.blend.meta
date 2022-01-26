@@ -6,6 +6,9 @@ ModelImporter:
   - first:
       74: 7081652204967868996
     second: cityApplied.001
+  - first:
+      74: -1836227945346150631
+    second: scooter
   externalObjects: {}
   materials:
     materialImportMode: 2

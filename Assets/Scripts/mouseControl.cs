@@ -13,6 +13,7 @@ public class mouseControl : MonoBehaviour
 
     [SerializeField] private Camera playerCamera;
     private float rotationX = 0;
+   
     
     void Awake()
     {
