@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: 87f664e51418cf64194915b6fb15dbe0
+guid: 632054ce6cc3af44199c8a9e776d8fea
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red
+    second: {fileID: 2100000, guid: da884108ee31cf74a9cad85bcf2377c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white.001
+    second: {fileID: -1787745424648543715, guid: fdbbbf3f135fe194fbff6ecd31ab6ed0, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -73,7 +83,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 0
+  importAnimation: 1
   humanDescription:
     serializedVersion: 3
     human: []

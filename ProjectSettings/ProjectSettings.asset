@@ -615,7 +615,7 @@ PlayerSettings:
   scriptingRuntimeVersion: 1
   gcIncremental: 1
   assemblyVersionValidation: 1
-  gcWBarrierValidation: 0
+  gcWbarrierValidation: 0
   apiCompatibilityLevelPerPlatform:
     Standalone: 3
   m_RenderingPath: 1
