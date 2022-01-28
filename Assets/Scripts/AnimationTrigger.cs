@@ -60,7 +60,7 @@ public class AnimationTrigger : MonoBehaviour
         string barrierGameObjectName = other.gameObject.name;
         FindBarrier(barrierGameObjectName);
 
-        Debug.Log("bang");
+        
         
     }
 
