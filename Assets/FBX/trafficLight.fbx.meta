@@ -2,8 +2,90 @@ fileFormatVersion: 2
 guid: 41cc2d96d7606a741a2eb79b6b462c3c
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable: []
-  externalObjects: {}
+  internalIDToNameTable:
+  - first:
+      74: 822422665237890410
+    second: TrafficLight|BezierCurveAction
+  - first:
+      74: -5811030947949276853
+    second: TrafficLight|BezierCurveAction.003
+  - first:
+      74: -1812773436804184667
+    second: TrafficLight|boxAction.005
+  - first:
+      74: -4086245477030111865
+    second: TrafficLight|CameraShakify.v2_walk_to_the_store
+  - first:
+      74: -3413062434002859845
+    second: TrafficLight|Circle.001Action.001
+  - first:
+      74: 2849582958724472075
+    second: TrafficLight|Circle.001Action.004
+  - first:
+      74: 7967596754563343875
+    second: TrafficLight|Cube.002Action
+  - first:
+      74: 6421581050466883135
+    second: TrafficLight|Cube.003Action
+  - first:
+      74: -2757366964022472450
+    second: TrafficLight|Cube.003Action.003
+  - first:
+      74: 8308941316711384383
+    second: TrafficLight|Cube.012Action
+  - first:
+      74: 8584377080421167819
+    second: TrafficLight|Cube.012Action.001
+  - first:
+      74: -6042994547422942011
+    second: TrafficLight|Cube.012Action.003
+  - first:
+      74: 1358865049013908170
+    second: TrafficLight|Cube.012Action.004
+  - first:
+      74: -8743133356995752778
+    second: TrafficLight|CubeAction
+  - first:
+      74: -4374904159852818329
+    second: TrafficLight|CubeAction.001
+  - first:
+      74: -1838941276397861725
+    second: TrafficLight|LandscapeAction
+  - first:
+      74: 4838655377313928181
+    second: TrafficLight|Plane.001Action
+  - first:
+      74: -5147202208863524950
+    second: TrafficLight|PlaneAction
+  - first:
+      74: -3967026663179128378
+    second: TrafficLight|PlaneAction.007
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: 85df28b25fbf8644595167f590510b38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: green.002
+    second: {fileID: 2100000, guid: d70aa90b5b90c5645b29a81c57c884f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red
+    second: {fileID: 2100000, guid: da884108ee31cf74a9cad85bcf2377c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white.001
+    second: {fileID: -1787745424648543715, guid: fdbbbf3f135fe194fbff6ecd31ab6ed0, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellow
+    second: {fileID: 2100000, guid: f665fc8941f9d6d4291d3c984a4ce920, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
