@@ -26,7 +26,7 @@ public class rotateWorld : MonoBehaviour
             Yaxis = Yaxis * -1; 
             multiplier = (float)Yaxis;
             
-            Debug.Log(multiplier);
+           
         }
     }
 }
