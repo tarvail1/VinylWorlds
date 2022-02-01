@@ -1,41 +1,46 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEditor.Build.Content;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class TextTrigger : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] public GameObject appearText;
-    public GameObject[] textObjectList;
+    public TMP_Text m_textComponent;
     private List<Text> textList = new List<Text>();
-    public float fadeSpeed = 0.01f;
-    public float timeDisplayed = 10f;
-    public Color c;
+    public float fadeDuration = 5f;
+    
+    public Color activeColor;
+    public Color inactiveColor;
 
-   
+
 
 
     void Start()
     {
-        this.GetComponent<TextMesh>().color = c;
-
+        m_textComponent.color = inactiveColor;
+        
 
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("bang");
+        
         if (other.gameObject.CompareTag("Player"))
         {
-            
-            StartCoroutine(Fade(fadeSpeed));
+
+            StartCoroutine(Fade());
         }
+
         
     }
 
@@ -43,30 +48,36 @@ public class TextTrigger : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            StartCoroutine(Fadeout(fadeSpeed));
+           StartCoroutine(Fadeout());
 
         }
     }
 
-    private IEnumerator Fade(float f)
+    private IEnumerator Fade()
     {
-        for (float i = 0; i < 255; i++)
+        float elapsedTime = 0;
+        while (elapsedTime < fadeDuration)
         {
-            Debug.Log(c.a);
-            c.a += f;
-            this.GetComponent<TextMesh>().color = c;
+            elapsedTime += Time.deltaTime;
+            m_textComponent.color = Color.Lerp(inactiveColor, activeColor, elapsedTime / fadeDuration);
+            yield return null;
         }
-        yield return null;
+
     }
-    
-    private IEnumerator Fadeout(float f)
+
+    private IEnumerator Fadeout()
     {
-        while (c.a  > 0)
+        Color tempColor;
+        
+        float elapsedTime = 0;
+        
+        while (elapsedTime < fadeDuration)
         {
-            c.a -= f;
-            this.GetComponent<TextMesh>().color = c;
+            elapsedTime += Time.deltaTime;
+            m_textComponent.color = Color.Lerp(activeColor, inactiveColor, elapsedTime / fadeDuration);
+            yield return null;
         }
-        yield return null;
+
     }
 }
 
