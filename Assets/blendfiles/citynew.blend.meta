@@ -2,7 +2,10 @@ fileFormatVersion: 2
 guid: b96e474d2c91fd04f81ef608d4255fab
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: 5255477052557000210
+    second: cityApplied
   externalObjects: {}
   materials:
     materialImportMode: 2

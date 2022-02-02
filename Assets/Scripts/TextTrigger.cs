@@ -14,7 +14,8 @@ using TMPro;
 public class TextTrigger : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] public GameObject appearText;
+    //[SerializeField] public GameObject appearText;
+    private AudioSource audio;
     public TMP_Text m_textComponent;
     private List<Text> textList = new List<Text>();
     public float fadeDuration = 5f;
@@ -28,7 +29,7 @@ public class TextTrigger : MonoBehaviour
     void Start()
     {
         m_textComponent.color = inactiveColor;
-        
+        audio = GetComponent<AudioSource>();
 
     }
 
@@ -37,7 +38,7 @@ public class TextTrigger : MonoBehaviour
         
         if (other.gameObject.CompareTag("Player"))
         {
-
+            audio.Play();
             StartCoroutine(Fade());
         }
 
