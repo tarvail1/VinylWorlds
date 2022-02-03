@@ -6,6 +6,9 @@ ModelImporter:
   - first:
       74: 5255477052557000210
     second: cityApplied
+  - first:
+      74: -1098335877762777462
+    second: Scene.003
   externalObjects: {}
   materials:
     materialImportMode: 2
