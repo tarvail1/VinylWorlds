@@ -14,6 +14,8 @@ public class playSounds : MonoBehaviour
 
     public void playHood()
     {
+        Debug.Log("soundPlayed");
         AudioManager.AudioManagerInstance.Play("carHood");
+        
     }
 }
