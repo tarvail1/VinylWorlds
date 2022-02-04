@@ -32,6 +32,31 @@ public class randomText : MonoBehaviour
         SentenceList.Add(10,"I am proud of you");
         SentenceList.Add(11,"When you cant find the sunshine, be the sunshine");
         SentenceList.Add(12,"Don't be afraid to start over");
+        SentenceList.Add(13,"You are beautiful");
+        SentenceList.Add(14,"Nothing is impossible");
+        SentenceList.Add(15,"Be courageous");
+        SentenceList.Add(16,"You can whatever you want");
+        SentenceList.Add(17,"You look lovely today");
+        SentenceList.Add(18,"It's never too late to set a new dream");
+        SentenceList.Add(19,"Embrace the good in you");
+        SentenceList.Add(20,"Believe you can and you’re halfway there");
+        SentenceList.Add(21,"You can shake the world");
+        SentenceList.Add(22,"You are a rainbow in someone's cloud");
+        SentenceList.Add(23,"Life is like a open highway");
+        SentenceList.Add(24,"It's ok to have bad days too");
+        SentenceList.Add(25,"Impossible is only an opinion");
+        SentenceList.Add(26,"You shine like a diamond");
+        SentenceList.Add(27,"You are a series of small nice things brought together");
+        SentenceList.Add(28,"Hey you, just you");
+        SentenceList.Add(29,"Don't worry about the small things");
+        SentenceList.Add(30,"Focus on the positive");
+        SentenceList.Add(31,"Hold on, you can do it");
+        SentenceList.Add(32,"Wherever you go, go with all your heart");
+        SentenceList.Add(33,"Begin anywhere");
+        SentenceList.Add(34,"You're worth it");
+        SentenceList.Add(35,"Sunshine all the time makes a desert");
+        SentenceList.Add(36,"You’re so much stronger than you think");
+
 
         currentTextIndex = Random.Range(0, SentenceList.Count);
         textField = GetComponent<TextMeshPro>();
