@@ -14,16 +14,11 @@ using TMPro;
 public class TextTrigger : MonoBehaviour
 {
     // Start is called before the first frame update
-<<<<<<< Updated upstream
     //[SerializeField] public GameObject appearText;
     private AudioSource audio;
-=======
-    
-    public static TextTrigger TextTriggerInstance; 
->>>>>>> Stashed changes
     public TMP_Text m_textComponent;
     private List<Text> textList = new List<Text>();
-    public  float fadeDuration = 5f;
+    public float fadeDuration = 5f;
     
     public Color activeColor;
     public Color inactiveColor;
