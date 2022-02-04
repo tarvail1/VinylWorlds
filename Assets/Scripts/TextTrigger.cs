@@ -38,7 +38,7 @@ public class TextTrigger : MonoBehaviour
         
         if (other.gameObject.CompareTag("Player"))
         {
-            audio.Play();
+            //audio.Play();
             StartCoroutine(Fade());
         }
 

@@ -27,7 +27,7 @@ public class rotateObject : MonoBehaviour
     void Update()
     {
         //Get the value for the multiplier
-        scratchMultiplier = citybase.GetComponent<rotateWorld>().multiplier;
+        //scratchMultiplier = citybase.GetComponent<rotateWorld>().multiplier;
 
         if (x)
         {
