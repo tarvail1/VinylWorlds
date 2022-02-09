@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Manatee
-  m_Shader: {fileID: -6465566751694194690, guid: 9468f9b44d938c94bba819082d16097b, type: 3}
+  m_Name: underWaterManatee
+  m_Shader: {fileID: -6465566751694194690, guid: d2c3f1c6bff5a5f43b12bb2002f448aa, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_D71B5CBC:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 37386f7c2ad30d9429ca9d1a0c0f86aa, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColor:
@@ -98,13 +98,13 @@ Material:
     m_Floats:
     - Vector1_3E4E7F58: 0
     - Vector1_5443DC82: 1
-    - Vector1_810FF6ED: 2
+    - Vector1_810FF6ED: 0.53
     - Vector1_994EA204: 3.5
     - Vector1_A8CC0681: 5
-    - Vector1_DE7903F8: 2.2
-    - Vector1_E79FBA7D: 5
+    - Vector1_DE7903F8: 1.35
+    - Vector1_E79FBA7D: 5.8
     - _AlphaClip: 0
-    - _BaseColorHue: 122
+    - _BaseColorHue: 98
     - _BaseColorsaturation: 1
     - _Blend: 0
     - _BumpScale: 1
@@ -133,9 +133,9 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_2B7C42F7: {r: 2, g: 2, b: 2, a: 0}
+    - Color_2B7C42F7: {r: 21.36126, g: 21.36126, b: 21.36126, a: 0}
     - Color_77ed2a05670845a9b31508a867f8819b: {r: 0.5679659, g: 0.083882175, b: 0.6132076, a: 0}
-    - Color_DB714CC1: {r: 0.24999997, g: 0.50186586, b: 1, a: 0}
+    - Color_DB714CC1: {r: 0.5707547, g: 0.71458566, b: 1, a: 0}
     - Vector4_47405F4E: {r: 1, g: 1, b: 0, a: 0}
     - Vector4_85FB229A: {r: 0.1, g: 0.1, b: 0.05, a: 0.05}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
