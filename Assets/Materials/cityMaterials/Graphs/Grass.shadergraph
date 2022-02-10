@@ -1279,7 +1279,7 @@
     },
     "m_Name": "WindStrenght",
     "m_DefaultReferenceName": "Vector1_345d7616a3e84c38848c7ae3d455b1f8",
-    "m_OverrideReferenceName": "",
+    "m_OverrideReferenceName": "WindS",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,

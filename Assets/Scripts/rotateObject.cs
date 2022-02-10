@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using PathCreation.Examples;
 using UnityEditor.UIElements;
 using UnityEngine;
 
@@ -7,6 +8,7 @@ using UnityEngine;
 public class rotateObject : MonoBehaviour
 {
     [SerializeField, Range(0, 4)] private float speed = 0.1f;
+    private GameObject scratchableObject;
     private GameObject citybase;
     public bool x = false;
     public bool y = false;
@@ -15,11 +17,13 @@ public class rotateObject : MonoBehaviour
     private float ySpeed = 0;
     private float zSpeed = 0;
     public float  scratchMultiplier;
+    public FloatVariable multiplierValue;
     
 
     void Start()
     {
         //assign the object to the one with disc rotate script
+        scratchableObject = GameObject.FindWithTag("MainCameraControl");
         citybase = GameObject.FindWithTag("base");
     }
 
@@ -27,7 +31,7 @@ public class rotateObject : MonoBehaviour
     void Update()
     {
         //Get the value for the multiplier
-        scratchMultiplier = citybase.GetComponent<rotateWorld>().multiplier;
+        scratchMultiplier = multiplierValue.GetValue();
 
         if (x)
         {

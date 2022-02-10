@@ -6,6 +6,8 @@ TagManager:
   tags:
   - base
   - tram
+  - MainCameraControl
+  - grass
   layers:
   - Default
   - TransparentFX
