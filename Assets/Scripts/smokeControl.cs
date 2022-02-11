@@ -7,8 +7,7 @@ using UnityEngine.VFX;
 public class smokeControl : MonoBehaviour
 {
     private VisualEffect smokeEffect;
-    public PathFollower pathFollower;
-    public GameObject Camera;
+    
     private float multiplier;
     private Vector3 ForceAmount;
     public FloatVariable multiplierValue;
@@ -17,7 +16,6 @@ public class smokeControl : MonoBehaviour
     void Start()
     {
         smokeEffect = GetComponent<VisualEffect>();
-        Camera = GameObject.FindWithTag("MainCameraControl");
         
         ForceAmount = new Vector3(-multiplier*4, multiplier*10, 0);
     }
