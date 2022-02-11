@@ -11,13 +11,13 @@ public class smokeControl : MonoBehaviour
     private float multiplier;
     private Vector3 ForceAmount;
     public FloatVariable multiplierValue;
+    public float strenght;
 
     // Start is called before the first frame update
     void Start()
     {
         smokeEffect = GetComponent<VisualEffect>();
         
-        ForceAmount = new Vector3(-multiplier*4, multiplier*10, 0);
     }
 
     // Update is called once per frame
