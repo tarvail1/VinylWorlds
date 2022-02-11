@@ -23,16 +23,16 @@ ModelImporter:
     second: pidgeonFlyIdle
   - first:
       74: 2889127978850062555
-    second: pidgeonRig.001|pidgeonFlyIdle
+    second: pidgeonFlyIdle
   - first:
       74: 3884296957858998925
     second: pidgeonRig.001|pidgeonFlying
   - first:
       74: 7448086362543300751
-    second: pidgeonRig.001|pidgeonFlying.001
+    second: pidgeonGliding
   - first:
       74: 2868022070733943031
-    second: 'pidgeonRig.001|pidgeonGliding '
+    second: pidgeonRig.001|pidgeonGliding
   - first:
       74: -2465949205495532608
     second: pidgeonRig.001|pidgeonRig.001Action
@@ -74,7 +74,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: pidgeonRig.001|pidgeonFlyIdle
+      name: pidgeonFlyIdle
       takeName: pidgeonRig.001|pidgeonFlyIdle
       internalID: 0
       firstFrame: 0
@@ -85,7 +85,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -103,8 +103,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: pidgeonRig.001|pidgeonFlying
-      takeName: pidgeonRig.001|pidgeonFlying
+      name: pidgeonFlying
+      takeName: pidgeonFlying
       internalID: 0
       firstFrame: 0
       lastFrame: 60
@@ -114,7 +114,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -132,11 +132,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: 'pidgeonRig.001|pidgeonGliding '
-      takeName: 'pidgeonRig.001|pidgeonGliding '
+      name: pidgeonGliding
+      takeName: pidgeonRig.001|pidgeonFlying.001
       internalID: 0
       firstFrame: 0
-      lastFrame: 90
+      lastFrame: 89
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -223,7 +223,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
