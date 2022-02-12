@@ -8,10 +8,12 @@ public class sinMovement : MonoBehaviour
     public float height = 30f;
     private float timeSinceStart;
     private Vector3 pivot;
-    private sinMovement _sinMovement; 
+    
 
     private void Start()
     {
+        height = Random.Range(0, 3);
+        timePeriod = Random.Range(0, 10);
         pivot = transform.position;
         height /= 2;
         timeSinceStart = (3 * timePeriod) / 4;
