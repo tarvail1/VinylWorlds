@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: UnderWaterLargePiece
+  m_Name: UnderWaterNormalLargePiece
   m_Shader: {fileID: -6465566751694194690, guid: d2c3f1c6bff5a5f43b12bb2002f448aa, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -20,11 +20,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_782ba3c985404e06b9b63087a6d51c6b:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: d09094dbc2c3e124d940ff0e2d8045a5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_D71B5CBC:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: bb16de1c3d54f534eb183afae98c7498, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -85,7 +85,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_3E4E7F58: -1.76
-    - Vector1_3c2efa8356354b7c9a491849db60c31a: 0.53
+    - Vector1_3c2efa8356354b7c9a491849db60c31a: 0.26
     - Vector1_5443DC82: 0.3
     - Vector1_810FF6ED: 0.1
     - Vector1_994EA204: 4.15
@@ -120,7 +120,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_2B7C42F7: {r: 42.722507, g: 42.722507, b: 42.722507, a: 0}
-    - Color_DB714CC1: {r: 0.8301887, g: 0.074920624, b: 0, a: 0}
+    - Color_DB714CC1: {r: 0.022917405, g: 0.67601126, b: 0.9716981, a: 0}
     - Vector4_47405F4E: {r: 1, g: 1, b: 0, a: 0}
     - Vector4_85FB229A: {r: 1.42, g: 0.1, b: 0.05, a: 2.77}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
