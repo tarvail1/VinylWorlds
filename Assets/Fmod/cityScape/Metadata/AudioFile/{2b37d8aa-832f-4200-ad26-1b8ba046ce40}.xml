@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{2b37d8aa-832f-4200-ad26-1b8ba046ce40}">
+		<property name="assetPath">
+			<value>sfx/bicycle-bell.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>5.524375</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{197e4645-9dea-43f4-b3e3-b7d3a8c536fe}</destination>
+		</relationship>
+	</object>
+</objects>

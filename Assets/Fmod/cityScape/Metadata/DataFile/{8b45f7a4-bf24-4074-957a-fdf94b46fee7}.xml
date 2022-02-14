@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DataFile" id="{8b45f7a4-bf24-4074-957a-fdf94b46fee7}">
+		<property name="assetPath">
+			<value>sfx/538947__subwaysandwitch420__truck-door-closed.wav</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{197e4645-9dea-43f4-b3e3-b7d3a8c536fe}</destination>
+		</relationship>
+	</object>
+</objects>

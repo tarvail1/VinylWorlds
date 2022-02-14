@@ -20,6 +20,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 173664
   Exists: 1
+--- !u!114 &-7067881579667965267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/newEvent
+  m_EditorClassIdentifier: 
+  Path: event:/newEvent
+  Guid:
+    Data1: -119130217
+    Data2: 1145171117
+    Data3: 125925025
+    Data4: -1152225371
+  Banks:
+  - {fileID: 465854853276069656}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5049
 --- !u!114 &-6794376214358433743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47,6 +74,73 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5049
+--- !u!114 &-5907366719862289986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/carSFX/Beat Loop
+  m_EditorClassIdentifier: 
+  Path: event:/carSFX/Beat Loop
+  Guid:
+    Data1: 1803917555
+    Data2: 1302982788
+    Data3: -2082905210
+    Data4: 651075026
+  Banks:
+  - {fileID: 465854853276069656}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5049
+--- !u!114 &-3542850977031524570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/sfx.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Fmod/cityScape/Build/Desktop/sfx.bank
+  Name: sfx
+  StudioPath: bank:/sfx
+  lastModified: 637795694534769077
+  FileSizes:
+  - Name: Desktop
+    Value: 173664
+  Exists: 1
+--- !u!114 &-2676585375466403998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Fmod/cityScape/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637795694534468905
+  FileSizes:
+  - Name: Desktop
+    Value: 962
+  Exists: 1
 --- !u!114 &-1723079665496952160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,20 +203,40 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -790864578285822756}
-  - {fileID: 6742903088109220630}
-  - {fileID: -7073164760925227356}
+  - {fileID: -2676585375466403998}
+  - {fileID: 465854853276069656}
+  - {fileID: -3542850977031524570}
   EditorEvents:
-  - {fileID: -6794376214358433743}
-  - {fileID: -1723079665496952160}
-  - {fileID: 7232233919146629728}
+  - {fileID: -7067881579667965267}
+  - {fileID: 6641462552786027390}
+  - {fileID: -5907366719862289986}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 6742903088109220630}
+  - {fileID: 465854853276069656}
   StringsBanks:
-  - {fileID: -790864578285822756}
+  - {fileID: -2676585375466403998}
   cacheTime: 637795694534769077
   cacheVersion: 10
+--- !u!114 &465854853276069656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Fmod/cityScape/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637795694534448886
+  FileSizes:
+  - Name: Desktop
+    Value: 239520
+  Exists: 1
 --- !u!114 &1936496488357234147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,6 +261,35 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &6641462552786027390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/carSFX/CarHood
+  m_EditorClassIdentifier: 
+  Path: event:/carSFX/CarHood
+  Guid:
+    Data1: -305903177
+    Data2: 1255227731
+    Data3: -1600832846
+    Data4: 619543950
+  Banks:
+  - {fileID: 465854853276069656}
+  - {fileID: -3542850977031524570}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 7205262260011136471}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1150
 --- !u!114 &6742903088109220630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,6 +309,30 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 239520
+  Exists: 1
+--- !u!114 &7205262260011136471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CarHood/Terrain
+  m_EditorClassIdentifier: 
+  Name: Terrain
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 3884587432
+    data2: 875937217
+  Type: 1
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &7232233919146629728
 MonoBehaviour:

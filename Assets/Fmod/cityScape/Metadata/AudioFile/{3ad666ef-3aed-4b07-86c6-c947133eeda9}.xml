@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{3ad666ef-3aed-4b07-86c6-c947133eeda9}">
+		<property name="assetPath">
+			<value>sfx/carSuspension - Trimmed (2).wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.98965986394557826</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{197e4645-9dea-43f4-b3e3-b7d3a8c536fe}</destination>
+		</relationship>
+	</object>
+</objects>

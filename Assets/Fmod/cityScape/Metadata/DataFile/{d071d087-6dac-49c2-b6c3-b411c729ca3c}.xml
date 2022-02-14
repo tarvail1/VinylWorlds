@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DataFile" id="{d071d087-6dac-49c2-b6c3-b411c729ca3c}">
+		<property name="assetPath">
+			<value>sfx/enough.ogg</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{197e4645-9dea-43f4-b3e3-b7d3a8c536fe}</destination>
+		</relationship>
+	</object>
+</objects>
