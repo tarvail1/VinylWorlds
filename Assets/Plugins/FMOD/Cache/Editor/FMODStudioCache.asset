@@ -177,7 +177,7 @@ MonoBehaviour:
   - {fileID: 4454778593433978391}
   StringsBanks:
   - {fileID: 8579107031423713339}
-  cacheTime: 637805480179459113
+  cacheTime: 637805496130486087
   cacheVersion: 10
 --- !u!114 &559173854224368585
 MonoBehaviour:
@@ -194,7 +194,7 @@ MonoBehaviour:
   Path: Assets/Fmod/wholeProject/VinylWorlds/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637805480179209794
+  lastModified: 637805496130376659
   FileSizes:
   - Name: Desktop
     Value: 24749024
@@ -384,7 +384,7 @@ MonoBehaviour:
   Path: Assets/Fmod/wholeProject/VinylWorlds/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637805480177890113
+  lastModified: 637805496128770701
   FileSizes:
   - Name: Desktop
     Value: 1030
@@ -404,7 +404,7 @@ MonoBehaviour:
   Path: Assets/Fmod/wholeProject/VinylWorlds/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 637805480179459113
+  lastModified: 637805496130486087
   FileSizes:
   - Name: Desktop
     Value: 1841600
