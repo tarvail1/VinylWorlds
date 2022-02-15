@@ -47,6 +47,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5049
+--- !u!114 &-6624368986345659203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/forest
+  m_EditorClassIdentifier: 
+  Path: event:/forest
+  Guid:
+    Data1: 689325204
+    Data2: 1190954738
+    Data3: -2113987448
+    Data4: -1678888243
+  Banks:
+  - {fileID: 8736205136755677086}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 169784
 --- !u!114 &-1723079665496952160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,20 +136,39 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -790864578285822756}
-  - {fileID: 6742903088109220630}
-  - {fileID: -7073164760925227356}
+  - {fileID: 8579107031423713339}
+  - {fileID: 4454778593433978391}
+  - {fileID: 559173854224368585}
+  - {fileID: 8736205136755677086}
   EditorEvents:
-  - {fileID: -6794376214358433743}
-  - {fileID: -1723079665496952160}
-  - {fileID: 7232233919146629728}
+  - {fileID: -6624368986345659203}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 6742903088109220630}
+  - {fileID: 4454778593433978391}
   StringsBanks:
-  - {fileID: -790864578285822756}
-  cacheTime: 637795694534769077
+  - {fileID: 8579107031423713339}
+  cacheTime: 637805120626327335
   cacheVersion: 10
+--- !u!114 &559173854224368585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Fmod/wholeProject/VinylWorlds/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 637805120626327335
+  FileSizes:
+  - Name: Desktop
+    Value: 494
+  Exists: 1
 --- !u!114 &1936496488357234147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,6 +192,26 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Labels: []
+  Exists: 1
+--- !u!114 &4454778593433978391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Fmod/wholeProject/VinylWorlds/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637805120611980010
+  FileSizes:
+  - Name: Desktop
+    Value: 1036
   Exists: 1
 --- !u!114 &6742903088109220630
 MonoBehaviour:
@@ -194,3 +260,43 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5049
+--- !u!114 &8579107031423713339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Fmod/wholeProject/VinylWorlds/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637805120612000029
+  FileSizes:
+  - Name: Desktop
+    Value: 848
+  Exists: 1
+--- !u!114 &8736205136755677086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Fmod/wholeProject/VinylWorlds/Build/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 637805120626307318
+  FileSizes:
+  - Name: Desktop
+    Value: 1402944
+  Exists: 1
