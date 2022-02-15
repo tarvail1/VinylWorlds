@@ -5711,7 +5711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72909087bd26b60458e5e64851bfd7cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.15
+  speed: 4
   x: 0
   y: 0
   z: 1
@@ -8879,7 +8879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd99b909fe7e328469993a68b68da4a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pathCreator: {fileID: 0}
+  pathCreator: {fileID: 1965343338}
   endOfPathInstruction: 0
   speed: 2
   objectOffset: 0
