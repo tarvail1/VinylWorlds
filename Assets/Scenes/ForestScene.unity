@@ -1916,6 +1916,7 @@ GameObject:
   - component: {fileID: 297562898}
   - component: {fileID: 297562897}
   - component: {fileID: 297562896}
+  - component: {fileID: 297562899}
   m_Layer: 0
   m_Name: waterFall
   m_TagString: Untagged
@@ -6767,6 +6768,36 @@ Transform:
   m_Father: {fileID: 884757523}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: -0.926, y: 0.121, z: -7.63}
+--- !u!114 &297562899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297562895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1927298355
+      Data2: 1166457026
+      Data3: -687554674
+      Data4: -560932150
+    Path: event:/waterfall-loop
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 14.837156
+  OverrideMaxDistance: 39.526382
 --- !u!4 &310990303 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3088056179009044820, guid: 25cf0ec82fc78014f8db59f32dfac45b, type: 3}
@@ -13692,12 +13723,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1137775084}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33aabe1a2dec93349b06e6e5dc51bc06, type: 3}
+  m_Script: {fileID: 11500000, guid: dd99b909fe7e328469993a68b68da4a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pathCreator: {fileID: 12609121}
   endOfPathInstruction: 0
-  speed: 5
+  speed: 2
   objectOffset: 0
   multiplier: 0
   multiplierValue: {fileID: 11400000, guid: c641a10facb6afc43bc522fc5b0b5f6e, type: 2}
@@ -18184,6 +18215,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1661575471}
   m_Mesh: {fileID: -2600080778534502638, guid: 5c091d532c556e148990a6c0de79d477, type: 3}
+--- !u!1 &1663895239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1663895241}
+  - component: {fileID: 1663895240}
+  m_Layer: 0
+  m_Name: OSCServer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1663895240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663895239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5dacbe557cef684abbe42da23a8db53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RemoteIP: 127.0.0.1
+  SendToPort: 9000
+  ListenerPort: 1312
+  receiverGameObjects:
+  - {fileID: 2006576049}
+--- !u!4 &1663895241
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663895239}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.0648975, y: 8.934021, z: -8.611244}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1670653198 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3088056179009044820, guid: 25cf0ec82fc78014f8db59f32dfac45b, type: 3}
@@ -19574,7 +19653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72909087bd26b60458e5e64851bfd7cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.47
+  speed: 0.02
   x: 0
   y: 1
   z: 0
@@ -20393,6 +20472,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2006576051}
   - component: {fileID: 2006576050}
+  - component: {fileID: 2006576052}
   m_Layer: 0
   m_Name: CameraController
   m_TagString: MainCameraControl
@@ -20433,6 +20513,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2006576052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006576049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e98613f0a23ff7f4b93650e444fd2766, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  messageAddress: /midi
+  Component: PathFollower
+  Property: multiplier
 --- !u!1001 &2029182386
 PrefabInstance:
   m_ObjectHideFlags: 0

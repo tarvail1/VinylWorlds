@@ -40,11 +40,11 @@ public class OSCAnimateSingleValue : OSCAnimation
                     {
                         if ((int) localMsg.Values[1]==1)
                         {
-                            multiplierValue = 1;
+                            multiplierValue = 2;
                         }
                         else
                         {
-                            multiplierValue = map((int) localMsg.Values[0], 60, 66, -4f, 4f);
+                            multiplierValue = map((int) localMsg.Values[0], 60, 66, -8f, 8f);
                         }
 
                         field.SetValue(comp, multiplierValue);
