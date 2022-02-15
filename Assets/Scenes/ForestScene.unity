@@ -7345,6 +7345,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: spruces
       objectReference: {fileID: 0}
+    - target: {fileID: 2183338197173107609, guid: f6931f171868b764aa1f2e5da3a0afa3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d4dec058ae1c6f54f880eb8194002dcd, type: 2}
     - target: {fileID: 4046878273682663106, guid: f6931f171868b764aa1f2e5da3a0afa3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.4
@@ -21705,7 +21709,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 5af97ff5303407d40b0fbcc8bf6c3b39, type: 2}
-  - {fileID: -4914099682261631528, guid: 1229d609a54144242b47d1c061f433bb, type: 3}
+  - {fileID: 2100000, guid: 5af97ff5303407d40b0fbcc8bf6c3b39, type: 2}
   - {fileID: 2100000, guid: 05f6625e9b382ad41a7f810a9b5d3f4d, type: 2}
   - {fileID: -5813004260948092355, guid: 2d374285c68134e40b150feb5a7f1e38, type: 3}
   m_StaticBatchInfo:

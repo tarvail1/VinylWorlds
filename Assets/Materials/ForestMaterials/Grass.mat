@@ -103,7 +103,7 @@ Material:
     m_Floats:
     - Vector1_345d7616a3e84c38848c7ae3d455b1f8: 0.4
     - Vector1_c44c8847418f4d7787b985a5b6495e40: 0.2
-    - WindS: -1
+    - WindS: -2.25
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
