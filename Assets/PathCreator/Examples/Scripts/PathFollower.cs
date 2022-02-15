@@ -41,14 +41,12 @@ namespace PathCreation.Examples
                 transform.rotation = pathCreator.path.GetRotationAtDistance(distanceTravelled, endOfPathInstruction);
             }
 
-            if (Input.GetMouseButton(0))
-            {
-                float Yaxis = Input.GetAxis("Mouse Y");
-                Yaxis = Yaxis * -1;
-                multiplier = (float) Yaxis*5;
-                multiplierValue.SetValue(multiplier);
+            
+            
+                
+            multiplierValue.SetValue(multiplier);
 
-            }
+         
 
         }
 
