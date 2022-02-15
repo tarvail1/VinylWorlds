@@ -18,12 +18,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: clouds
-    second: {fileID: 1664533959200444428, guid: c204864923ffa4047bf72989138cb918, type: 3}
+    second: {instanceID: 0}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: radioBBase
     second: {fileID: -5813004260948092355, guid: 2d374285c68134e40b150feb5a7f1e38, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: solidTrunk
+    second: {fileID: -4914099682261631528, guid: c204864923ffa4047bf72989138cb918, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
