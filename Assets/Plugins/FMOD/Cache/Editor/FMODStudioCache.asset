@@ -100,7 +100,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 180000
+  Length: 181000
 --- !u!114 &-1723079665496952160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,7 +176,7 @@ MonoBehaviour:
   - {fileID: 4454778593433978391}
   StringsBanks:
   - {fileID: 8579107031423713339}
-  cacheTime: 637805269762815546
+  cacheTime: 637805334156604328
   cacheVersion: 10
 --- !u!114 &559173854224368585
 MonoBehaviour:
@@ -193,10 +193,10 @@ MonoBehaviour:
   Path: Assets/Fmod/wholeProject/VinylWorlds/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 637805269762755712
+  lastModified: 637805334140382506
   FileSizes:
   - Name: Desktop
-    Value: 24334976
+    Value: 24748992
   Exists: 1
 --- !u!114 &1936496488357234147
 MonoBehaviour:
@@ -289,7 +289,7 @@ MonoBehaviour:
   Path: Assets/Fmod/wholeProject/VinylWorlds/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637805269762037631
+  lastModified: 637805334035525164
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -356,7 +356,7 @@ MonoBehaviour:
   Path: Assets/Fmod/wholeProject/VinylWorlds/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637805269762047610
+  lastModified: 637805334035545396
   FileSizes:
   - Name: Desktop
     Value: 986
@@ -376,7 +376,7 @@ MonoBehaviour:
   Path: Assets/Fmod/wholeProject/VinylWorlds/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 637805269762815546
+  lastModified: 637805334156604328
   FileSizes:
   - Name: Desktop
     Value: 1453856
