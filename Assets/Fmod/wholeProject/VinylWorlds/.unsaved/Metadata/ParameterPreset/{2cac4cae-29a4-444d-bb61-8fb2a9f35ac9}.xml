@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{2cac4cae-29a4-444d-bb61-8fb2a9f35ac9}">
+		<property name="name">
+			<value>simoIndex</value>
+		</property>
+		<relationship name="folder">
+			<destination>{add94081-d211-4edb-9ae4-09bcbe2f20b7}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a55594aa-19df-4c32-a871-245184583801}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a55594aa-19df-4c32-a871-245184583801}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>65</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>38</value>
+		</property>
+	</object>
+</objects>
