@@ -59,7 +59,11 @@
 			<destination>{b1785cf3-b28d-4875-832e-dd233148bfba}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{31d7f21a-cb5f-4d5e-9d09-8eeac1819c39}" />
+	<object class="EventAutomatableProperties" id="{31d7f21a-cb5f-4d5e-9d09-8eeac1819c39}">
+		<property name="maximumDistance">
+			<value>10000</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{5f04f256-b950-46be-9ce8-c611927e5a92}" />
 	<object class="GroupTrack" id="{7c76f271-bcbf-4adb-896a-d8ad48d011cf}">
 		<relationship name="modules">
@@ -207,6 +211,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{7e80185d-95bf-4157-843b-5d42d233e419}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{7c1ff0a5-ff52-4038-bb48-65b7ae7a51eb}</destination>
 		</relationship>
@@ -758,6 +765,7 @@
 		<relationship name="effects">
 			<destination>{81528d99-1a06-4b9a-aad5-1247a17bc89f}</destination>
 			<destination>{3ce0f60b-1154-429c-ba8c-3b4bf206277e}</destination>
+			<destination>{39266e02-2287-4da6-ae3f-5bb7cc30a911}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2e33c729-7bcd-4b9b-b645-ea0f6703f9d4}" />
@@ -769,6 +777,45 @@
 	</object>
 	<object class="MixerBusPanner" id="{dc318a94-1dbb-49f7-961f-13c917d1927a}" />
 	<object class="MixerBusFader" id="{81528d99-1a06-4b9a-aad5-1247a17bc89f}" />
-	<object class="SpatialiserEffect" id="{3ce0f60b-1154-429c-ba8c-3b4bf206277e}" />
+	<object class="SpatialiserEffect" id="{3ce0f60b-1154-429c-ba8c-3b4bf206277e}">
+		<property name="maximumDistance">
+			<value>10000</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{39266e02-2287-4da6-ae3f-5bb7cc30a911}">
+		<property name="decayTime">
+			<value>7000</value>
+		</property>
+		<property name="earlyDelay">
+			<value>32</value>
+		</property>
+		<property name="lateDelay">
+			<value>56</value>
+		</property>
+		<property name="HFReference">
+			<value>3000</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>44.5</value>
+		</property>
+		<property name="diffusion">
+			<value>76</value>
+		</property>
+		<property name="lowShelfFrequency">
+			<value>610</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>-26.5</value>
+		</property>
+		<property name="highCut">
+			<value>680</value>
+		</property>
+		<property name="wetLevel">
+			<value>10</value>
+		</property>
+		<property name="dryLevel">
+			<value>-10</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{ce763110-a0d2-4445-8ab5-1866996f8e52}" />
 </objects>

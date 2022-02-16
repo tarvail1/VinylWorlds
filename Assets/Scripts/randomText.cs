@@ -16,6 +16,7 @@ public class randomText : MonoBehaviour
     private Rigidbody rb;
     private TextTrigger _textTrigger;
     [SerializeField] public IntVariable Simoindex;
+    private FMOD.Studio.EventInstance sound;
 
     
     public Dictionary<int, string> SentenceList = new Dictionary<int, string>();
@@ -74,7 +75,16 @@ public class randomText : MonoBehaviour
     }
 
 
+    private void OnTriggerEnter(Collider other)
+    {
 
+        if (other.gameObject.CompareTag("Player"))
+        {
+
+            StartCoroutine(playSimo(2f));
+            
+        }
+    }
 
 
     void OnTriggerExit(Collider other)
@@ -97,4 +107,15 @@ public class randomText : MonoBehaviour
 
     }
 
+    IEnumerator playSimo(float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+        sound = FMODUnity.RuntimeManager.CreateInstance("event:/SimoSays");
+        sound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(this.gameObject));
+        sound.setParameterByName("SimoIndex", Simoindex.GetValue());
+        sound.start();
+        sound.release();
+        Debug.Log("sound played");
+    }
+    
 }
