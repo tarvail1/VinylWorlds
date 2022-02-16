@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5f877b70-1e60-4c92-925a-6e52505a0418}">
+		<property name="assetPath">
+			<value>Simo/44.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>3.5370068027210886</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{47abcfea-e0b4-4fd1-b5b4-1da3e73d4308}</destination>
+		</relationship>
+	</object>
+</objects>
