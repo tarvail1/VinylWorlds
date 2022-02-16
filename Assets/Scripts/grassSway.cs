@@ -23,7 +23,7 @@ public class grassSway : MonoBehaviour
     void Update()
     {
         multiplier = multiplierValue.GetValue();
-        Debug.Log("multiplier;"+multiplier);
+     //   Debug.Log("multiplier;"+multiplier);
         material.SetFloat("WindS", multiplier);
         
         

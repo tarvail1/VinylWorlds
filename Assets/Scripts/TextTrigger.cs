@@ -11,26 +11,28 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+
+
+
 public class TextTrigger : MonoBehaviour
 {
     // Start is called before the first frame update
     //[SerializeField] public GameObject appearText;
-    private AudioSource audio;
     public TMP_Text m_textComponent;
     private List<Text> textList = new List<Text>();
     public float fadeDuration = 5f;
     
     public Color activeColor;
     public Color inactiveColor;
-
+  
 
 
 
     void Start()
     {
         m_textComponent.color = inactiveColor;
-        audio = GetComponent<AudioSource>();
-
+        
+        
     }
 
     private void OnTriggerEnter(Collider other)
@@ -40,6 +42,7 @@ public class TextTrigger : MonoBehaviour
         {
             //audio.Play();
             StartCoroutine(Fade());
+            
         }
 
         

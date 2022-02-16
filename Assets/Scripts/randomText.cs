@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using FMODUnity;
+using Unity.VisualScripting;
 
 public class randomText : MonoBehaviour
 {
@@ -13,11 +15,15 @@ public class randomText : MonoBehaviour
     private int currentTextIndex;
     private Rigidbody rb;
     private TextTrigger _textTrigger;
+    [SerializeField] public IntVariable Simoindex;
+
     
     public Dictionary<int, string> SentenceList = new Dictionary<int, string>();
     // Start is called before the first frame update
     void Start()
     {
+       
+       
         _textTrigger = this.GetComponent<TextTrigger>();
         SentenceList.Add(0,"You look so lovely today");
         SentenceList.Add(1,"You are enough");
@@ -59,11 +65,16 @@ public class randomText : MonoBehaviour
 
 
         currentTextIndex = Random.Range(0, SentenceList.Count);
+        Simoindex.SetValue(currentTextIndex);
+        Debug.Log(currentTextIndex);
         textField = GetComponent<TextMeshPro>();
         textField.text = SentenceList[currentTextIndex];
     
 
     }
+
+
+
 
 
     void OnTriggerExit(Collider other)
@@ -80,6 +91,7 @@ public class randomText : MonoBehaviour
         yield return new WaitForSeconds(waitTime);
         nextTextIndex = Random.Range(0, SentenceList.Count);
         currentTextIndex = nextTextIndex;
+        Simoindex.SetValue(nextTextIndex);
         textField.text = SentenceList[currentTextIndex];
     
 
