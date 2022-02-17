@@ -42,7 +42,7 @@ public class randomText : MonoBehaviour
         SentenceList.Add(13,"You are beautiful");
         SentenceList.Add(14,"Nothing is impossible");
         SentenceList.Add(15,"Be courageous");
-        SentenceList.Add(16,"You can whatever you want");
+        SentenceList.Add(16,"You can be whatever you want");
         SentenceList.Add(17,"You look lovely today");
         SentenceList.Add(18,"It's never too late to set a new dream");
         SentenceList.Add(19,"Embrace the good in you");
@@ -63,8 +63,37 @@ public class randomText : MonoBehaviour
         SentenceList.Add(34,"You're worth it");
         SentenceList.Add(35,"Sunshine all the time makes a desert");
         SentenceList.Add(36,"You’re so much stronger than you think");
-
-
+        SentenceList.Add(37,"Welcome yourself into you");
+        SentenceList.Add(38,"There is a universe in all of us");
+        SentenceList.Add(39,"You are pure and loved");
+        SentenceList.Add(40,"Everything is in your reach");
+        SentenceList.Add(41,"Find the hidden truth within");
+        SentenceList.Add(42,"You are safe");
+        SentenceList.Add(43,"Your life is a gift");
+        SentenceList.Add(44,"The essence of life waits for you");
+        SentenceList.Add(45,"See all that you can become");
+        SentenceList.Add(46,"Your soul is beautiful");
+        SentenceList.Add(47,"Protect your heart");
+        SentenceList.Add(48,"You are important");
+        SentenceList.Add(49,"Eternity is a state of mind");
+        SentenceList.Add(50,"Let happiness inside you");
+        SentenceList.Add(51,"Imagine your own melody");
+        SentenceList.Add(52,"Shooting stars sing your name");
+        SentenceList.Add(53,"The prison of fear will not hold you");
+        SentenceList.Add(54,"Love always finds you");
+        SentenceList.Add(55,"Your heart is powerful");
+        SentenceList.Add(56,"The universe will reveal your story");
+        SentenceList.Add(57,"Life is your journey");
+        SentenceList.Add(58,"You are a beautiful secret");
+        SentenceList.Add(59,"Anything you want will be true");
+        SentenceList.Add(60,"You are a beautiful painting come to life");
+        SentenceList.Add(61,"You have all the colors within you");
+        SentenceList.Add(62,"You are worth more than all the gold in the world");
+        SentenceList.Add(63,"Your essence shines light upon everything");
+        SentenceList.Add(64,"Let go of all fear");
+        
+        
+        
         currentTextIndex = Random.Range(0, SentenceList.Count);
         Simoindex.SetValue(currentTextIndex);
         Debug.Log(currentTextIndex);
@@ -75,16 +104,16 @@ public class randomText : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter(Collider other)
-    {
-
-        if (other.gameObject.CompareTag("Player"))
-        {
-
-            StartCoroutine(playSimo(2f));
-            
-        }
-    }
+    // private void OnTriggerEnter(Collider other)
+    // {
+    //
+    //     if (other.gameObject.CompareTag("Player"))
+    //     {
+    //
+    //         StartCoroutine(playSimo(2f));
+    //         
+    //     }
+    // }
 
 
     void OnTriggerExit(Collider other)
