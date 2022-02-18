@@ -25,7 +25,7 @@ public class rainbowTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (Random.Range(0, 100) < 50 )
+        if (Random.Range(0, 100) < 25 )
         {
             enableFade = true;
         }
