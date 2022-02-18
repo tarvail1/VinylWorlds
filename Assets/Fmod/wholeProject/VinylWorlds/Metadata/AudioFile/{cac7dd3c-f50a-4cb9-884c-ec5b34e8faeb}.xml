@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{cac7dd3c-f50a-4cb9-884c-ec5b34e8faeb}">
 		<property name="assetPath">
-			<value>duckpaddling - Trimmed.wav</value>
+			<value>duckpaddling/duckpaddling - Trimmed.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

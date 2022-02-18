@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{02e21b79-8d1a-4e56-823e-631fea77ce62}">
 		<property name="assetPath">
-			<value>458390__fabrizio84__underwater-sound.mp3</value>
+			<value>underwater/458390__fabrizio84__underwater-sound.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

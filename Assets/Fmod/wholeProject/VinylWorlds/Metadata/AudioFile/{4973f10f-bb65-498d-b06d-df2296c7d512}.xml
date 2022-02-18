@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{4973f10f-bb65-498d-b06d-df2296c7d512}">
 		<property name="assetPath">
-			<value>YungSelfieWeonit_10152877026294531.mp3</value>
+			<value>songs/YungSelfieWeonit_10152877026294531.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

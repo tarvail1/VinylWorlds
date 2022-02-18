@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{a10995cd-da81-4c14-b181-079fc1af96d5}">
 		<property name="assetPath">
-			<value>duckpaddling - Trimmed (3).wav</value>
+			<value>duckpaddling/duckpaddling - Trimmed (3).wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

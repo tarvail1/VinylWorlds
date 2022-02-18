@@ -11995,6 +11995,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   simoIndex: {fileID: 11400000, guid: 72a27017182aa4d4b8b05e16afce93dc, type: 2}
+  playEventPath: event:/SimoSays
 --- !u!1 &912796394
 GameObject:
   m_ObjectHideFlags: 0

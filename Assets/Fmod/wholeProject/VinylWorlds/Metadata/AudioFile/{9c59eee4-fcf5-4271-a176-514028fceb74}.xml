@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{9c59eee4-fcf5-4271-a176-514028fceb74}">
 		<property name="assetPath">
-			<value>ysari_10153107995004531.mp3</value>
+			<value>songs/ysari_10153107995004531.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

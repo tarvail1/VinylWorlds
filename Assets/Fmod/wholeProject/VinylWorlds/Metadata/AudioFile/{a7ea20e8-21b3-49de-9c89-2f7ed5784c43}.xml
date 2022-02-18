@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{a7ea20e8-21b3-49de-9c89-2f7ed5784c43}">
 		<property name="assetPath">
-			<value>547522__colorscrimsontears__underwater.wav</value>
+			<value>underwater/547522__colorscrimsontears__underwater.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
