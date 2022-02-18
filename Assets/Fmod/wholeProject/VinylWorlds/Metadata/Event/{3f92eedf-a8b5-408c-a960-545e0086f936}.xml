@@ -146,7 +146,7 @@
 	<object class="SpatialiserEffect" id="{20175d5b-df33-4b24-bbe6-376c444659b5}" />
 	<object class="MultibandEqEffect" id="{65d53840-64a6-47a3-b4d5-62d651215d96}">
 		<property name="frequencyA">
-			<value>1090.64429</value>
+			<value>363.729401</value>
 		</property>
 		<property name="qualityA">
 			<value>1.28662062</value>
