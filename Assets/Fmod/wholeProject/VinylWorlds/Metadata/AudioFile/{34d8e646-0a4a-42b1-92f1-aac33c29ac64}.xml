@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{34d8e646-0a4a-42b1-92f1-aac33c29ac64}">
 		<property name="assetPath">
-			<value>quicklynow_10153711932254531.mp3</value>
+			<value>songs/quicklynow_10153711932254531.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

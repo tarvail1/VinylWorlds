@@ -15,6 +15,7 @@ public class SimoSays : MonoBehaviour
     [SerializeField] public IntVariable simoIndex;
     int simoInd;
     private StudioParameterTrigger paramTrig;
+    [SerializeField]public string playEventPath;
     
     
     
@@ -50,7 +51,7 @@ public class SimoSays : MonoBehaviour
     IEnumerator playSimo(float waitTime)
     {
         yield return new WaitForSeconds(waitTime);
-        sound = FMODUnity.RuntimeManager.CreateInstance("event:/SimoSays");
+        sound = FMODUnity.RuntimeManager.CreateInstance(playEventPath);
         sound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(this.gameObject));
         sound.setParameterByName("SimoIndex", simoIndex.GetValue());
         sound.start();

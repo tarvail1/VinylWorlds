@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{f3746225-7a63-4eb1-9022-c9b2934d0fb8}">
 		<property name="assetPath">
-			<value>wait_10153073357994531.mp3</value>
+			<value>songs/wait_10153073357994531.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
