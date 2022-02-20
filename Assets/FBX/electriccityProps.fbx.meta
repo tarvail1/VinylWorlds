@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: d62ab34a311bd864d918743f8d8059fc
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -3971003564366330854
+    second: single_electricline|BezierCurve.002Action
+  - first:
+      74: 9200342577281706798
+    second: single_electricline|BezierCurve.002Action.001
+  - first:
+      74: 1234150190043295442
+    second: single_electricline|BezierCurveAction
+  - first:
+      74: 8811207621912928772
+    second: single_electricline|boxAction.005
+  - first:
+      74: 1080871879905476847
+    second: single_electricline|CameraShakify.v2_walk_to_the_store
+  - first:
+      74: -2220365417804531570
+    second: single_electricline|Circle.001Action.001
+  - first:
+      74: -1453071896854685699
+    second: single_electricline|Cube.002Action
+  - first:
+      74: -3433254649965935411
+    second: single_electricline|Cube.003Action
+  - first:
+      74: 7349995630601156899
+    second: single_electricline|Cube.012Action
+  - first:
+      74: 8331693277967068468
+    second: single_electricline|Cube.012Action.001
+  - first:
+      74: -3251228348402093258
+    second: single_electricline|Cube.012Action.004
+  - first:
+      74: 1084040133376211941
+    second: single_electricline|CubeAction
+  - first:
+      74: -3357687274068547159
+    second: single_electricline|CubeAction.001
+  - first:
+      74: -2465426153133483938
+    second: single_electricline|LandscapeAction
+  - first:
+      74: -1288443792732179413
+    second: single_electricline|Plane.001Action
+  - first:
+      74: 1109600434324509040
+    second: single_electricline|PlaneAction
+  - first:
+      74: 6504942714493551827
+    second: single_electricline|PlaneAction.001
+  - first:
+      74: 3241749642229957514
+    second: single_electricline|PlaneAction.007
+  - first:
+      74: -8115802972162175034
+    second: 90degree_electricLine|BezierCurve.002Action
+  - first:
+      74: 8715993946189163507
+    second: 90degree_electricLine|BezierCurve.002Action.001
+  - first:
+      74: 227414110392537871
+    second: 90degree_electricLine|BezierCurveAction
+  - first:
+      74: -5091504941753780167
+    second: 90degree_electricLine|boxAction.005
+  - first:
+      74: -5497952627173256940
+    second: 90degree_electricLine|CameraShakify.v2_walk_to_the_store
+  - first:
+      74: 3209273201777133500
+    second: 90degree_electricLine|Circle.001Action.001
+  - first:
+      74: 2599708824990928370
+    second: 90degree_electricLine|Cube.002Action
+  - first:
+      74: 4310352883443119455
+    second: 90degree_electricLine|Cube.003Action
+  - first:
+      74: -5997047315599371432
+    second: 90degree_electricLine|Cube.012Action
+  - first:
+      74: 1376347754234451539
+    second: 90degree_electricLine|Cube.012Action.001
+  - first:
+      74: -8425520154349654554
+    second: 90degree_electricLine|Cube.012Action.004
+  - first:
+      74: -8412291348102607594
+    second: 90degree_electricLine|CubeAction
+  - first:
+      74: -8969418368311191447
+    second: 90degree_electricLine|CubeAction.001
+  - first:
+      74: 5251700633488894579
+    second: 90degree_electricLine|LandscapeAction
+  - first:
+      74: 6565928903666743836
+    second: 90degree_electricLine|Plane.001Action
+  - first:
+      74: -7302189571969648310
+    second: 90degree_electricLine|PlaneAction
+  - first:
+      74: -7608255151979112680
+    second: 90degree_electricLine|PlaneAction.001
+  - first:
+      74: 5144051982046065087
+    second: 90degree_electricLine|PlaneAction.007
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black.001
+    second: {fileID: 2100000, guid: 0dd2c03c892b0f04e82cec59c6539ffc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brown
+    second: {fileID: 2100000, guid: d698e0edee26cb740905145a2e919889, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

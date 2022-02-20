@@ -108,6 +108,15 @@ ModelImporter:
   - first:
       74: 9195105203491191205
     second: trafficLight|PlaneAction.007
+  - first:
+      74: 8983004525140256384
+    second: TrafficLight|BezierCurve.002Action
+  - first:
+      74: 9183165298667992056
+    second: TrafficLight|BezierCurve.002Action.001
+  - first:
+      74: -8138207430304750080
+    second: TrafficLight|PlaneAction.001
   externalObjects:
   - first:
       type: UnityEngine:Material
