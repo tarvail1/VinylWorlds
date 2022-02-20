@@ -60,6 +60,54 @@ ModelImporter:
   - first:
       74: -3967026663179128378
     second: TrafficLight|PlaneAction.007
+  - first:
+      74: -138074285706292288
+    second: trafficLight|BezierCurveAction
+  - first:
+      74: 7944807052091094437
+    second: trafficLight|boxAction.005
+  - first:
+      74: 7168826795154161313
+    second: trafficLight|CameraShakify.v2_walk_to_the_store
+  - first:
+      74: 5423197023820047474
+    second: trafficLight|Circle.001Action.001
+  - first:
+      74: 3651251530537396508
+    second: trafficLight|Cube.002Action
+  - first:
+      74: -8371793295174826680
+    second: trafficLight|Cube.003Action
+  - first:
+      74: -7133170351287226129
+    second: trafficLight|Cube.012Action
+  - first:
+      74: 2213816106553935427
+    second: trafficLight|Cube.012Action.001
+  - first:
+      74: 1235938755405902058
+    second: trafficLight|Cube.012Action.004
+  - first:
+      74: 8548546620777094732
+    second: trafficLight|CubeAction
+  - first:
+      74: -94250090265050592
+    second: trafficLight|CubeAction.001
+  - first:
+      74: 3406445842572844636
+    second: trafficLight|LandscapeAction
+  - first:
+      74: 740876197178044244
+    second: trafficLight|Plane.001Action
+  - first:
+      74: 8440612919815556990
+    second: trafficLight|PlaneAction
+  - first:
+      74: 675030880154504997
+    second: trafficLight|PlaneAction.001
+  - first:
+      74: 9195105203491191205
+    second: trafficLight|PlaneAction.007
   externalObjects:
   - first:
       type: UnityEngine:Material

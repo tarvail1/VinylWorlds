@@ -9,6 +9,9 @@ ModelImporter:
   - first:
       74: -1098335877762777462
     second: Scene.003
+  - first:
+      74: -994531076916169784
+    second: city
   externalObjects: {}
   materials:
     materialImportMode: 2
