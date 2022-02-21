@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{715ddeca-ff29-450b-8176-7d20c16d503d}">
 		<property name="assetPath">
-			<value>manatee - Trimmed (3).wav</value>
+			<value>manatee/manatee - Trimmed (3).wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

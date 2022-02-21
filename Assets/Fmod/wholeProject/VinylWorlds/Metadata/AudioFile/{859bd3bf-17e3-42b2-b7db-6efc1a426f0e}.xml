@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{859bd3bf-17e3-42b2-b7db-6efc1a426f0e}">
 		<property name="assetPath">
-			<value>manatee.mp3</value>
+			<value>manatee/manatee.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

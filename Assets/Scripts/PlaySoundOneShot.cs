@@ -40,4 +40,26 @@ public class PlaySoundOneShot : MonoBehaviour
     }
     
     
+    void PlayBonk()
+    {
+        sound = FMODUnity.RuntimeManager.CreateInstance("event:/CarBonk");
+        sound.setProperty(FMOD.Studio.EVENT_PROPERTY.MAXIMUM_DISTANCE, 10 );
+        sound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(this.gameObject));
+        sound.start();
+        sound.release();
+        Debug.Log("sound played");
+        
+    }
+    
+    void PlayCarSqueak()
+    {
+        sound = FMODUnity.RuntimeManager.CreateInstance("event:/CarSqueak");
+        sound.setProperty(FMOD.Studio.EVENT_PROPERTY.MAXIMUM_DISTANCE, 10 );
+        sound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(this.gameObject));
+        sound.start();
+        sound.release();
+        Debug.Log("sound played");
+        
+    }
+    
 }

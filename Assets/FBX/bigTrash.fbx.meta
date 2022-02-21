@@ -57,6 +57,60 @@ ModelImporter:
   - first:
       74: -4248757528085209351
     second: city.224|PlaneAction.007
+  - first:
+      74: 4962207194968554015
+    second: thrashCan|BezierCurve.002Action
+  - first:
+      74: -5638108462046683731
+    second: thrashCan|BezierCurve.002Action.001
+  - first:
+      74: -6802450247664333408
+    second: thrashCan|BezierCurveAction
+  - first:
+      74: -598152457774312546
+    second: thrashCan|boxAction.005
+  - first:
+      74: -5516435752650356584
+    second: thrashCan|CameraShakify.v2_walk_to_the_store
+  - first:
+      74: -6046474316186948168
+    second: thrashCan|Circle.001Action.001
+  - first:
+      74: 2858199200671427362
+    second: thrashCan|Cube.002Action
+  - first:
+      74: -421069659720537988
+    second: thrashCan|Cube.003Action
+  - first:
+      74: -8436950009609961770
+    second: thrashCan|Cube.012Action
+  - first:
+      74: 1450701924606656792
+    second: thrashCan|Cube.012Action.001
+  - first:
+      74: 524467805939005700
+    second: thrashCan|Cube.012Action.004
+  - first:
+      74: 1736947215205381748
+    second: thrashCan|CubeAction
+  - first:
+      74: -7045471061216963741
+    second: thrashCan|CubeAction.001
+  - first:
+      74: 4234129616870118252
+    second: thrashCan|LandscapeAction
+  - first:
+      74: -5763036418706741697
+    second: thrashCan|Plane.001Action
+  - first:
+      74: 5544533002394851499
+    second: thrashCan|PlaneAction
+  - first:
+      74: -8840253312459205516
+    second: thrashCan|PlaneAction.001
+  - first:
+      74: 2763479824978428088
+    second: thrashCan|PlaneAction.007
   externalObjects: {}
   materials:
     materialImportMode: 2
