@@ -9,6 +9,7 @@
     }
   ],
   "dependencies": {
+    "com.samdriver.driven-decals": "https://github.com/Anatta336/driven-decals.git",
     "com.unity.ads": "2.0.8",
     "com.unity.analytics": "3.3.2",
     "com.unity.animation.rigging": "1.0.3",
