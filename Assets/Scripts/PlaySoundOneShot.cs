@@ -26,7 +26,7 @@ public class PlaySoundOneShot : MonoBehaviour
         sound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(this.gameObject));
         sound.start();
         sound.release();
-        Debug.Log("sound played");
+        //Debug.Log("sound played");
     }
 
     void PlaySplash()
@@ -35,7 +35,7 @@ public class PlaySoundOneShot : MonoBehaviour
         sound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(this.gameObject));
         sound.start();
         sound.release();
-        Debug.Log("sound played");
+        //Debug.Log("sound played");
         
     }
     
@@ -47,7 +47,7 @@ public class PlaySoundOneShot : MonoBehaviour
         sound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(this.gameObject));
         sound.start();
         sound.release();
-        Debug.Log("sound played");
+        ;
         
     }
     
@@ -58,7 +58,7 @@ public class PlaySoundOneShot : MonoBehaviour
         sound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(this.gameObject));
         sound.start();
         sound.release();
-        Debug.Log("sound played");
+        //Debug.Log("sound played");
         
     }
     

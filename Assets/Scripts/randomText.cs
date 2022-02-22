@@ -96,7 +96,7 @@ public class randomText : MonoBehaviour
         
         currentTextIndex = Random.Range(0, SentenceList.Count);
         Simoindex.SetValue(currentTextIndex);
-        Debug.Log(currentTextIndex);
+        //Debug.Log(currentTextIndex);
         textField = GetComponent<TextMeshPro>();
         textField.text = SentenceList[currentTextIndex];
     

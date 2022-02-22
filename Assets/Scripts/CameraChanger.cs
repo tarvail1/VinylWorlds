@@ -14,9 +14,9 @@ public class CameraChanger : MonoBehaviour
 // Use this for initialization
     void Start()
     {
-        FPSController.SetActive(true);
-        VRCameraRig.SetActive(false);
-        cameraStatus = 1;
+        FPSController.SetActive(false);
+        VRCameraRig.SetActive(true);
+        //cameraStatus = 1;
     }
 
 // Update is called once per frame

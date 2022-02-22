@@ -8,6 +8,9 @@ TagManager:
   - tram
   - MainCameraControl
   - grass
+  - FxTemporaire
+  - projectile
+  - uiComponent
   layers:
   - Default
   - TransparentFX
