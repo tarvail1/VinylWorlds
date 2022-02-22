@@ -50,7 +50,7 @@ public class OSCAnimateStandardMaterial : OSCAnimation {
                 animateMaterial( localMsg);
 					
 			}
-			catch (System.Exception e)
+			catch (System.Exception)
 			{
 				Debug.Log ("Wrong propertyname, or missing component, or type mismatch between message value and property value");
 			}
