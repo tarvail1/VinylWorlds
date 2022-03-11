@@ -13,14 +13,14 @@ public class LevelManager : MonoBehaviour
     private List<string> Levels = new List<string>()
     {
         "ForestScene",
-        "UnderWater",
+        "Underwater",
         "CityScene 1"
     };
     public Color inactiveColor;
     public Color activeColor;
 
     private float currentTime;
-    private float sceneDuration = 500;
+    private float sceneDuration = 240;
     private float fadeDuration = 5;
     [SerializeField] public RawImage canvas;
     public int currentLevel = 0;
